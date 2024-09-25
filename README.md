@@ -1,4 +1,3 @@
-# @mo-kdd's page
-Projects:
+# About this project
 
-[Typing game](https://mo-kdd.github.io/typing-game-react/)
+This page showcases and links to all of my current uploaded projects.

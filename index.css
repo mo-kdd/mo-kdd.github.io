@@ -1,0 +1,53 @@
+body{
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    
+    color-scheme: light dark;
+    color: #213547;
+    background-color: white;
+    line-height: 1.5;
+}
+.project-container{
+    display:flex;
+    justify-content: flex-start;
+    gap:1.5rem;
+    margin-left:.5rem;
+}
+
+.card{
+    height:18rem;
+    width:30rem;
+    position:relative;
+    border:1px solid black;
+    transition: background-color 0.3s ease;
+}
+
+.card img{
+    object-fit: cover;
+    transition: opacity 0.4s ease;
+    display:block;
+}
+
+.card h2 {
+    position:absolute;
+    top:60%;
+    left:35%;
+
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.card:hover {
+    background-color: black;
+}
+
+.card:hover img {
+    opacity: 0.2;
+}
+
+.card:hover h2 {
+    opacity: 1;
+}
